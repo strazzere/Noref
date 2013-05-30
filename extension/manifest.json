@@ -11,8 +11,7 @@
 			"run_at": "document_end"
 		} 
 	],
-	"permissions": [ 
-		"tabs", 
+	"permissions": [
 		"http://*/*", 
 		"https://*/*" 
 	]
