@@ -1,0 +1,19 @@
+{
+	"name": "No Referrer",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "No Referrer",
+	"content_scripts": [ 
+		{
+			"all_frames": false,
+			"js": [ "noref.js" ],
+			"matches": [ "http://*/*", "https://*/*" ],
+			"run_at": "document_end"
+		} 
+	],
+	"permissions": [ 
+		"tabs", 
+		"http://*/*", 
+		"https://*/*" 
+	]
+}
